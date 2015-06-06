@@ -1,0 +1,12 @@
+applications:
+- services:
+  - testapp-angelhacks-DataCache
+  - testapp-angelhacks-MonitoringAndAnalytics
+  - Question and Answer-lx
+  disk_quota: 1024M
+  host: testapp-angelhacks
+  name: testapp-angelhacks
+  path: CrunchifyRESTJerseyExample-0.0.1-SNAPSHOT.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
